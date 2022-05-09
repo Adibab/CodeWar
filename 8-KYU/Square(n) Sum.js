@@ -9,4 +9,12 @@ function squareSum(numbers){
       return newArray;
     }
 
+    // or using reduce method
+
+    function squareSum(numbers){
+        return numbers.reduce(function(sum, n){
+          return (n*n) + sum;
+        }, 0)
+      }
+
      //codewar link - https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript
