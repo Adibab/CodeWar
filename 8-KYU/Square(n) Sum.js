@@ -17,4 +17,10 @@ function squareSum(numbers){
         }, 0)
       }
 
+      //or
+
+      function squareSum(numbers){
+        return numbers.reduce((acc, c)=> acc+ c**2, 0);
+      }
+
      //codewar link - https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript

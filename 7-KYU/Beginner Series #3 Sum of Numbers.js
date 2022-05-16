@@ -31,4 +31,18 @@ function getSum( a,b )
    
 }
 
+//or 
+function getSum(a, b){
+  let c=0;
+       if (a <= b){
+           for(i=a; i<=b; i++){ // i=a because starting from a var, thats the minimum value from where we need to start
+               c += i;
+           } return c;
+       } else if(a > b){
+           for(i=b; i<=a; i++){
+               c += i;
+           } return c;
+       }
+   }
+
  // codewar link - https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript
