@@ -26,4 +26,9 @@ function highAndLow(numbers) {
 
     return maxNum + " " + minNum
 }
+or 
+function highAndLow(numbers){
+    let arr = numbers.split(' ').map(Number);  
+    return Math.max(...arr) + ' ' + Math.min(...arr);
+  }
  // codewar link - https://www.codewars.com/kata/554b4ac871d6813a03000035/train/javascript
