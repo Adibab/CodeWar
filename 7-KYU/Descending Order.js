@@ -32,6 +32,4 @@
 function descendingOrder(n){
     let num = n.toString().split('');
       return parseInt(num.sort().reverse().join(''));
-    }
-
-    // https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/javascript
+}
