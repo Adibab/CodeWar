@@ -1,4 +1,4 @@
-function maxSequence(arr) {
+var maxSequence = function (arr) {
   let currentSum = 0;
   let maxSum = 0;
 
