@@ -12,6 +12,6 @@ function solution(str) {
   return arr;
 }
 let input = "abc";
-let input = "abcdef"
+let input2 = "abcdef";
 
 console.log(solution(input));
