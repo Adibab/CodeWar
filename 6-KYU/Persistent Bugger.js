@@ -1,19 +1,4 @@
 function persistence(num) {
-  //code me
-  // let count = 0;
-
-  // if (num.toString().length === 1) {
-  //   return count;
-  // }
-
-  // let multiply = 1;
-  // let convertToArray = num.toString().split("");
-  // // console.log(convertToArray);
-  // for (let i = 0; i <= convertToArray.length; i++) {
-  //   multiply *= parseFloat(convertToArray[i]);
-  // }
-  // return  1 + persistence(parseFloat(multiply));
-
   if (num.toString().length === 1) {
     return 0;
   }
