@@ -12,7 +12,7 @@ function titleCase(title, minorWords) {
 
   let titleArray = title.toLowerCase().split(" ");
   console.log(titleArray);
-  titleArray[0] = capitalize(titleArray[0]);
+//   titleArray[0] = capitalize(titleArray[0]);
 
   for (let i = 1; i < titleArray.length; i++) {
     if (minorArray.indexOf(titleArray[i]) === -1) {
