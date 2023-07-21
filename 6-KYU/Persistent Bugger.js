@@ -17,9 +17,8 @@ function persistence(num) {
 
   return count;
 }
-let input = 999;
+// let input = 999;
 console.log(persistence(input));
-
 
 function persistence(num) {
   if (num.toString().length === 1) {
