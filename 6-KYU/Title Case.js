@@ -19,9 +19,12 @@ function titleCase(title, minorWords) {
       titleArray[i] = capitalize(titleArray[i]);
       console.log(titleArray[i]);
     }
+  
+
+
   }
   return titleArray.join(" ");
 }
 let capitalize = (str) => {
   return str[0].toUpperCase() + str.slice(1);
-};
+}
